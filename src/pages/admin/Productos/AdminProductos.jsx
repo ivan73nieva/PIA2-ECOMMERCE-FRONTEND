@@ -253,7 +253,10 @@ export default function AdminProductos() {
 
     if (cargando) return <div className="flex min-h-[40vh] items-center justify-center text-slate-500 font-medium">Cargando Productos...</div>;
 
-  if (cargando) {
+      if (cargando) {
+        return <div className="flex min-h-[40vh] items-center justify-center text-slate-500 font-medium">Cargando Productos...</div>;
+    }
+
     return (
         <div>
             <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center mb-6">
